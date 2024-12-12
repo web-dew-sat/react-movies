@@ -1,8 +1,8 @@
 import './App.css';
 import {Fragment} from "react";
-import Header from './layout/Header/Header';
-import Footer from './layout/Footer/Footer';
-import Main from "./layout/Main";
+import Header from '../../layout/Header/Header';
+import Footer from '../../layout/Footer/Footer';
+import Main from "../../layout/Main/Main";
 
 function App() {
     return (
