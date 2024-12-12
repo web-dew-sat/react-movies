@@ -1,3 +1,5 @@
+import './Pagination.css'
+
 // Импортируем React и базовый класс Component
 import React, { Component } from "react";
 

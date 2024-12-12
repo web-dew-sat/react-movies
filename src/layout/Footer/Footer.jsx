@@ -1,3 +1,4 @@
+import './Footer.css'
 function Footer() {
     return <footer className="page-footer green lighten-4">
         <div className="footer-copyright green lighten-4">

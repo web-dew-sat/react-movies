@@ -12,45 +12,8 @@ code {
     monospace;
 }
 
-.nav-wrapper{
-  padding: 0 1rem;
-}
+
 .content{
   min-height: calc(100vh - 70px - 64px);
   padding: 1.5rem 0;
-}
-.movies{
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 1rem;
-}
-.search-btn {
- position: absolute;
-  top: 0;
-  right: 0.5rem;
-}
-
-label:not(:last-child){
-  margin-right: 2rem;
-}
-
-.total{
-  text-align: center;
-  font-size: 24px;
-}
-.pagination{
-  margin: 50px auto;
-  display: flex;
-  gap: 5px;
-  justify-content: center;
-}
-.pagination li{
-  width: 30px;
-  height: 30px;
-  display: flex;
-  border-radius: 100%;
-  align-items: center;
-  justify-content: center;
-  line-height: 1;
-  background-color: #cecece;
 }

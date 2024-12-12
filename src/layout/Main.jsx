@@ -1,9 +1,9 @@
 // Импортируем необходимые компоненты
-import { Movies } from "../components/Movies"; // Компонент для отображения списка фильмов
+import { Movies } from "../components/Movies/Movies"; // Компонент для отображения списка фильмов
 import React, { Component } from "react";
-import Preloader from "../components/Preloader"; // Компонент загрузчика
-import Search from "../components/Search"; // Компонент поиска
-import Pagination from "../components/Pagination"; // Компонент пагинации
+import Preloader from "../components/Preloader/Preloader"; // Компонент загрузчика
+import Search from "../components/Search/Search"; // Компонент поиска
+import Pagination from "../components/Pagination/Pagination"; // Компонент пагинации
 
 // Получаем ключ API из переменных окружения
 const API_KEY = process.env.REACT_APP_API_KEY;

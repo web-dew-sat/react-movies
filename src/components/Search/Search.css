@@ -1,0 +1,14 @@
+.search-btn {
+    position: absolute;
+    top: 0;
+    right: 0.5rem;
+}
+label:not(:last-child){
+    margin-right: 2rem;
+}
+
+
+.total{
+    text-align: center;
+    font-size: 24px;
+}

@@ -1,6 +1,6 @@
 
-import Movie from './Movie';
-
+import Movie from '../Movie/Movie';
+import './Movies.css'
 
 
 function Movies(props) {
